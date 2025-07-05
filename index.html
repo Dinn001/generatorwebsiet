@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Store Web Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Website Store Generator</h1>
+  
+  <form id="storeForm">
+    <label>Nama Toko:</label>
+    <input type="text" id="storeName" required>
+
+    <label>Deskripsi Toko:</label>
+    <textarea id="storeDesc" required></textarea>
+
+    <label>Warna Tema:</label>
+    <input type="color" id="themeColor" value="#3498db">
+
+    <h2>Tambah Produk</h2>
+    <div id="productContainer"></div>
+    <button type="button" onclick="addProduct()">+ Tambah Produk</button>
+
+    <br><br>
+    <button type="submit">Generate Website</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
