@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Store Generator - Dinns</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Website Store Generator</h1>
+  <form id="form">
+    <label>Nama Toko:</label>
+    <input type="text" id="storeName" required>
+
+    <label>Deskripsi Toko:</label>
+    <textarea id="storeDesc" required></textarea>
+
+    <label>Nomor WhatsApp Pemilik:</label>
+    <input type="text" id="waNumber" required>
+
+    <label>Logo Toko (foto profil):</label>
+    <input type="file" id="logoImg" accept="image/*" onchange="previewLogo()">
+    <img id="logoPreview" src="" style="max-width:100px;margin-top:0.5rem"/>
+
+    <label>Warna Tema:</label>
+    <input type="color" id="themeColor" value="#00d2ff">
+
+    <div id="products"></div>
+    <button type="button" onclick="addProduct()">+ Tambah Produk</button>
+    <button type="button" onclick="previewSite()">Preview</button>
+    <button type="submit">Generate Website</button>
+  </form>
+  <footer>&copy; 2025 Copyright By Dinns</footer>
+  <script src="script.js"></script>
+</body>
+</html>
