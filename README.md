@@ -30,7 +30,7 @@ Website Store Generator adalah alat berbasis web yang memungkinkan kamu membuat 
 
 ## 🖼️ Tampilan Form Generator
 
-![Screenshot Generator](https://raw.githubusercontent.com/Dinn001/generatorwebsiet/assets.jpg) <!-- Opsional: bisa ditambahkan gambar nanti -->
+![Screenshot Generator](https://imgur.com/a/YcRmvaP) <!-- Opsional: bisa ditambahkan gambar nanti -->
 
 ---
 
