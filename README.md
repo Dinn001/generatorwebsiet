@@ -56,7 +56,7 @@ Atau dibuka langsung secara lokal di browser.
 
 ## 👨‍💻 Author
 
-> Dibuat dengan ❤️ oleh [@Dinns](https://github.com/namamu)
+> Dibuat dengan ❤️ oleh [@Dinns](https://github.com/Dinn001)
 
 ---
 
